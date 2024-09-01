@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ffc5e6;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  background-color: #FFFFFF;
+  margin: auto;
+  height: 0 auto;
+}
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  color: #ffc5e6;
+}
+p {
+    font-family: 'Brush Script MT', cursive;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ffc5e6;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: #FFF;
+}
+.button:active {
+  background-color: #FFF;
+  box-shadow: 0 5px #FFF;
+  transform: translateY(4px);
+}
+img {
+  max-height: 70px;
+  max-width: 70px;
+}
